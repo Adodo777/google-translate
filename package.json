@@ -1,6 +1,6 @@
 {
   "name": "trans-google-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A headless React hook and customizable UI components for integrating the Google Translate widget.",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -36,6 +36,7 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
+    "@types/node": "^25.9.1",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "react": "^18.2.0",

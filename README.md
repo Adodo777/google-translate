@@ -1,4 +1,4 @@
-# google-translate
+# trans-google-translate
 
 A highly customizable, zero-dependency React package that seamlessly wraps Google Translate. It offers a headless React Hook for fully custom selector layouts, alongside high-quality pre-styled components (a Brutalist floating button and a clean dropdown).
 
@@ -20,11 +20,11 @@ Designed for production environments, Next.js (SSR), and Vite.
 ## Installation
 
 ```bash
-npm install google-translate
+npm install trans-google-translate
 # or
-yarn add google-translate
+yarn add trans-google-translate
 # or
-pnpm add google-translate
+pnpm add trans-google-translate
 ```
 
 ---
@@ -36,7 +36,7 @@ pnpm add google-translate
 Drop it anywhere in your root layout. It loads the Google Translate script automatically, registers the observer, and provides a floating button in the bottom right corner.
 
 ```tsx
-import { GoogleTranslate } from "google-translate";
+import { GoogleTranslate } from "trans-google-translate";
 
 export default function App() {
   return (
@@ -53,7 +53,7 @@ export default function App() {
 If you want a normal inline dropdown selector:
 
 ```tsx
-import { GoogleTranslateDropdown } from "google-translate";
+import { GoogleTranslateDropdown } from "trans-google-translate";
 
 export default function Header() {
   return (
@@ -70,7 +70,7 @@ export default function Header() {
 Use the hook `useGoogleTranslate` to construct your own custom UI. Multiple hooks on the page will automatically sync their active language states.
 
 ```tsx
-import { useGoogleTranslate } from "google-translate";
+import { useGoogleTranslate } from "trans-google-translate";
 
 export function CustomSelector() {
   const { currentLanguage, changeLanguage, languages } = useGoogleTranslate({

@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect, useRef } from "react";
 import { useGoogleTranslate } from "./useGoogleTranslate";
 import { GLOBAL_LANGUAGES } from "./constants";
