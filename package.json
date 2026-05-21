@@ -1,5 +1,5 @@
 {
-  "name": "@marcoskm/google-translate",
+  "name": "trans-google-translate",
   "version": "1.0.0",
   "description": "A headless React hook and customizable UI components for integrating the Google Translate widget.",
   "main": "dist/index.cjs",
